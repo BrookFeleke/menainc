@@ -12,12 +12,18 @@ module.exports = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
-    },
-    colors: {
-      "dark-brown": "#978063",
-      "lighter-brown": "#d8b89b",
-      "lightest-brown": "#e9e0d2",
+      colors: {
+        "custom-dark-brown": "#978063",
+        "custom-lighter-brown": "#d8b89b",
+        "custom-lightest-brown": "#e9e0d2",
+      },
+      fontFamily: {
+        avenir: ["Avenir", "cursive"],
+        avenirLight: ["Avenir-Light", "sans-serif"],
+        greatVibes: ["Great-Vibes", "sans-serif"],
+      },
     },
   },
+
   plugins: [],
 };

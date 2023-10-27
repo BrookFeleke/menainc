@@ -28,3 +28,49 @@ body {
   background-image: url("/bg_texture.png");
   background-size: cover;
 }
+@font-face {
+  font-family: "Avenir";
+  src: url("/fonts/Avenir_Black.ttf");
+}
+@font-face {
+  font-family: "Avenir-Light";
+  src: url("/fonts/Avenir_Light.ttf");
+}
+@font-face {
+  font-family: "Great-Vibes";
+  src: url("/fonts/GreatVibes.ttf");
+}
+.line {
+  position: absolute;
+  height: 5px; /* Height of the line */
+  background: #978063; /* Brown color */
+  top: calc(
+    10% - 1px
+  ); /* Position the lines vertically at the center of the screen */
+  z-index: -1; /* Place the lines below the content */
+  width: 30%; /* Adjust the width to control the length of the lines */
+}
+
+.left-line {
+  left: 0;
+}
+
+.left-line-1 {
+  width: 30%; /* Adjust the width to control the length of the left lines */
+  left: 0;
+}
+
+.left-line-2 {
+  width: 15%; /* Adjust the width to control the length of the left lines */
+  left: 0;
+  transform: translateY(30px);
+}
+
+.right-line {
+  right: 0;
+}
+
+.right-line-1 {
+  width: 30%; /* Adjust the width to control the length of the right line */
+  right: 0;
+}
