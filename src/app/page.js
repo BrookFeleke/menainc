@@ -100,7 +100,7 @@ export default function Home() {
                   </h2> */}
               <img
                 className="w-full rounded-2xl brightness-50"
-                src={"/second/second_section_photo.png"}
+                src={"/first/landing_photo.png"}
                 alt="pretty"
               ></img>
               <img
