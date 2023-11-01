@@ -13,8 +13,12 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head>
         <link rel="icon" href="/images/favicon.ico" sizes="any" />
+        <link
+          rel="stylesheet"
+          href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"
+        ></link>
       </head>
       <body className={inter.className}>{children}</body>
-    </html> 
+    </html>
   );
 }
