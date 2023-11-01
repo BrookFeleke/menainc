@@ -25,6 +25,7 @@ export default function Home() {
               className=""
               width={35}
               height={35}
+              alt="logo"
             ></Image>{" "}
             <span className="p-0 m-0"> Mena Inc</span>
           </a>
@@ -60,7 +61,7 @@ export default function Home() {
       </nav>
       <div className="line left-line left-line-3"></div>
       <div className="line left-line left-line-4"></div>
-      <div className="line right-line right-line-2"></div>
+      <div className="line right-line right-line-1"></div>
       {/* <nav className="flex flex-col w-full bg-custom-dark-brown items-center text-white pt-3 px-4  max-w-screen-xl sm:px-8 font-avenir ">
         {buttonTitles.map((title) => (
           <button
@@ -76,7 +77,7 @@ export default function Home() {
           </button>
         ))}
       </nav> */}
-      <main className="container mx-auto overflow-clip">
+      <main className="container mx-auto overflow-x-clip py-5">
         {" "}
         <div className="w-full md:w-5/6 my-10 mx-auto text-white  bg-cover bg-[url('/first/landing_photo.png')] rounded-3xl ">
           <div className="flex flex-col justify-evenly items-center w-full backdrop-brightness-50 rounded-3xl border-solid border-8 border-custom-lighter-brown">
@@ -102,16 +103,31 @@ export default function Home() {
             ></img>
           </div>
         </div>
+      </main>
+      <div className="w-full overflow-clip">
+        <div className=" w-72 border-solid border-t-4  h-5 border-custom-dark-brown transform translate-x-[40%] ">
+          &nbsp;
+        </div>
+        <div className=" w-3/4 border-solid border-b-4  h-1 border-custom-dark-brown transform -translate-x-[40%] ">
+          &nbsp;
+        </div>
+        <div className=" px-4 border-solid border-b-4 border-custom-dark-brown transform translate-x-[40%] ">
+          &nbsp;
+        </div>
+      </div>
+
+      <main className="container mx-auto overflow-clip">
         <div className="w-full lg:my-20 md:w-5/6 my-10 mx-auto flex flex-col lg:flex-row items-center md:px-0 lg:flex justify-center ">
           <div className="w-full p-0 m-0 md:w-5/6 my-10 mx-auto text-white   rounded-3xl ">
-            <div className="flex flex-col justify-evenly items-center lg:w-5/6  backdrop-brightness-50 rounded-3xl border-solid border-8 border-custom-lighter-brown">
+            <div className="flex flex-col justify-evenly md:h-4/5 items-center lg:w-5/6  backdrop-brightness-50 rounded-3xl border-solid border-8 border-custom-lighter-brown">
               {/* <h2 className="m-32 lg:m-64 font-greatVibes text-3xl md:text-9xl text-custom-lighter-brown xl:-translate-y-20 xl:-translate-x-5">
                     &nbsp;
                   </h2> */}
               <img
-                className="w-full rounded-2xl brightness-50"
+                className="w-full h-full  rounded-2xl brightness-50"
                 src={"/first/landing_photo.png"}
                 alt="pretty"
+                height={500}
               ></img>
               <img
                 src={"/first/flowers_left.png"}
@@ -142,7 +158,20 @@ export default function Home() {
             </p>
           </div>
         </div>
-        <div className="w-5/6 px-10 my-10 mx-auto text-white flex items-center   md:px-24 md:py-12">
+      </main>
+      <div className="w-full overflow-clip">
+        <div className=" w-4/5  border-solid border-t-4  h-5 border-custom-dark-brown transform translate-x-[70%] ">
+          &nbsp;
+        </div>
+        <div className=" w-2/4 border-solid border-b-4  h-1 border-custom-dark-brown transform translate-x-[40%] ">
+          &nbsp;
+        </div>
+        <div className="w-4/5 px-4 border-solid border-b-4 border-custom-dark-brown transform translate-x-[90%] ">
+          &nbsp;
+        </div>
+      </div>
+      <main className="container mx-auto overflow-clip">
+        <div className="w-5/6 px-10 my-7 mx-auto text-white flex items-center   md:px-24 md:py-10">
           <div className="bg-custom-dark-brown max-w-fit mr-5">
             <Image src={"/mena_logo_white.png"} width={135} height={10}></Image>
           </div>
