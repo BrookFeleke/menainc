@@ -34,7 +34,7 @@ export default function Home() {
             className="block sm:hidden sm:text-black self-end"
           >
             {/* <i className="uil uil-bars"></i> */}
-            <img src={"/bars.svg"} width={20} height={20} alt="fd" />
+            <Image src={"/bars.svg"} width={20} height={20} alt="fd" />
           </button>
         </div>
         <div
@@ -150,7 +150,7 @@ export default function Home() {
             </h2>
             <p className="mt-3 text-gray-600">
               At Mena Inc, we understand that your wedding day is a momentous
-              occasion that you've been dreaming about for a long time. The
+              occasion that you have been dreaming about for a long time. The
               planning process can be both exciting and overwhelming, but our
               mission is to help you make your dreams a reality. We believe that
               the key to a memorable wedding lies in the details, and one of
